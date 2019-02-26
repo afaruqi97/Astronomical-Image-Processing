@@ -4,7 +4,7 @@ Amena Faruqi and Sophia Zomerdijk-Russell
 Files Needed:
  - A1_mosaic.fits
  - cleanup.py
- - catalogue_creator.py
+ - catalogue_generator.py
 
 Please ensure all files are saved in the same directory before running. 
 
