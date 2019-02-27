@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-hdulist = fits.open("new_mosaic.fits")
+hdulist = fits.open("clean_mosaic.fits")
 image_data = hdulist[0].data
 mask = image_data == 0
 masked = np.ma.masked_array(image_data,mask)
@@ -346,9 +346,4 @@ def generate_catalogue():
    
 generate_catalogue()
 make_plot(magnitudes,mag_errs)
-
-
-
-
-
 
