@@ -341,5 +341,5 @@ def generate_catalogue():
     hdulist.writeto('final_mosaic.fits')       # save masked FITS file 
    
    
-#generate_catalogue()
-#make_plot(magnitudes,mag_errs)
+generate_catalogue()
+make_plot(magnitudes,mag_errs)
