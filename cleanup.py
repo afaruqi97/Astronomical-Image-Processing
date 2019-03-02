@@ -142,7 +142,7 @@ def histogram(data):
     plt.savefig('bkg_histogram2.jpg', dpi=250)
     plt.show()
 
-#image_data = cleanup(image_data)
+image_data = cleanup(image_data)
 flat_data = image_data.flatten()
 flat_data = [d for d in flat_data if 3350 < d < 3460] # cut off long tail of Gaussian
 histogram(flat_data)
