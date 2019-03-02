@@ -18,7 +18,7 @@ mask = image_data == 0
 masked = np.ma.masked_array(image_data,mask)
 ylim,xlim = masked.data.shape   # size of image 
 maxp_lim = 3475     # chosen cut-off for galaxy brightness 
-bkg_cutoff = 3458   # chosen cut-off for background values (3-sigma away from mean background)
+bkg_cutoff = 3457   # chosen cut-off for background values (3-sigma away from mean background)
 
 #----------------------- Initialise Data Lists ---------------------------
 
